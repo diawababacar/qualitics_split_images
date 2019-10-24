@@ -24,7 +24,7 @@ public class DziService {
         Map<String,String> map = new HashMap<>();
         File outputFolder = new File("/home/ababacar/Bureau/demodzi/src/main/resources/image_dzi");
 //        File f = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/default.png");
-        ScalablePyramidBuilder spb = new ScalablePyramidBuilder(254, 2, "JPG", "dzi");
+        ScalablePyramidBuilder spb = new ScalablePyramidBuilder(254, 1, "jpg", "dzi");
         FilesArchiver archiver = new DirectoryArchiver(outputFolder);
         PartialImageReader pir = new BufferedImageReader(fImage);
         String fileName = fImage.getName().substring(0,fImage.getName().lastIndexOf("."));

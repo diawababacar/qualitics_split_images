@@ -20,23 +20,20 @@ public class DemodziApplication {
 
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(DemodziApplication.class, args);
-		File outputFolder = new File("/home/ababacar/Bureau/demodzi/src/main/resources/image_dzi");
-		File f = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/default.png");
-		File f1 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/php_code.PNG");
-		File f2 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/spring11.png");
-		File f3 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/symfony.png");
+//		File outputFolder = new File("/home/ababacar/Bureau/demodzi/src/main/resources/image_dzi");
+//		File f = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/default.png");
+//		File f1 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/php_code.PNG");
+//		File f2 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/spring11.png");
+//		File f3 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/symfony.png");
 		File f4 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/DJI_0744.JPG");
 		File f5 = new File("/home/ababacar/Bureau/demodzi/src/main/resources/images/DJI_0746.JPG");
 		DziService dzi = new DziService();
-		dzi.createFileDzi(f);
-		dzi.createFileDzi(f1);
-		dzi.createFileDzi(f2);
-		dzi.createFileDzi(f3);
+//		dzi.createFileDzi(f);
+//		dzi.createFileDzi(f1);
+//		dzi.createFileDzi(f2);
+//		dzi.createFileDzi(f3);
 		dzi.createFileDzi(f4);
 		dzi.createFileDzi(f5);
-
-
-
 
 		/*System.out.println("DEBUT EXECUTION FILE");
 		ScalablePyramidBuilder spb = new ScalablePyramidBuilder();
@@ -49,9 +46,6 @@ public class DemodziApplication {
 //		System.out.println("---------------");
 //		read_dzi("/home/ababacar/Bureau/demodzi/src/main/resources/image_dzi/default.dzi");
 //		System.out.println("-----------------");
-
-
-
 
 
 	}
